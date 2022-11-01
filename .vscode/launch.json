@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Converter",
+            "request": "launch",
+            "mainClass": "Converter",
+            "projectName": "Wage-Converter_cabc6931"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"

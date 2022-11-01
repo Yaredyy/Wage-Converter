@@ -1,14 +1,6 @@
 {
     "java.project.referencedLibraries": [
         "lib/**/*.jar",
-        "/Users/yaredyohannes/Downloads/javafx-sdk-20/lib/javafx-swt.jar",
-        "/Users/yaredyohannes/Downloads/javafx-sdk-20/lib/javafx.base.jar",
-        "/Users/yaredyohannes/Downloads/javafx-sdk-20/lib/javafx.controls.jar",
-        "/Users/yaredyohannes/Downloads/javafx-sdk-20/lib/javafx.fxml.jar",
-        "/Users/yaredyohannes/Downloads/javafx-sdk-20/lib/javafx.graphics.jar",
-        "/Users/yaredyohannes/Downloads/javafx-sdk-20/lib/javafx.media.jar",
-        "/Users/yaredyohannes/Downloads/javafx-sdk-20/lib/javafx.swing.jar",
-        "/Users/yaredyohannes/Downloads/javafx-sdk-20/lib/javafx.web.jar",
         "c:\\Users\\yared\\Videos\\javafx-sdk-19\\lib\\javafx.base.jar",
         "c:\\Users\\yared\\Videos\\javafx-sdk-19\\lib\\javafx.controls.jar",
         "c:\\Users\\yared\\Videos\\javafx-sdk-19\\lib\\javafx.fxml.jar",
@@ -16,6 +8,14 @@
         "c:\\Users\\yared\\Videos\\javafx-sdk-19\\lib\\javafx.media.jar",
         "c:\\Users\\yared\\Videos\\javafx-sdk-19\\lib\\javafx.swing.jar",
         "c:\\Users\\yared\\Videos\\javafx-sdk-19\\lib\\javafx.web.jar",
-        "c:\\Users\\yared\\Videos\\javafx-sdk-19\\lib\\javafx-swt.jar"
+        "c:\\Users\\yared\\Videos\\javafx-sdk-19\\lib\\javafx-swt.jar",
+        "/Users/yaredyohannes/Downloads/javafx-sdk-20/lib/javafx-swt.jar",
+        "/Users/yaredyohannes/Downloads/javafx-sdk-20/lib/javafx.base.jar",
+        "/Users/yaredyohannes/Downloads/javafx-sdk-20/lib/javafx.controls.jar",
+        "/Users/yaredyohannes/Downloads/javafx-sdk-20/lib/javafx.fxml.jar",
+        "/Users/yaredyohannes/Downloads/javafx-sdk-20/lib/javafx.graphics.jar",
+        "/Users/yaredyohannes/Downloads/javafx-sdk-20/lib/javafx.media.jar",
+        "/Users/yaredyohannes/Downloads/javafx-sdk-20/lib/javafx.swing.jar",
+        "/Users/yaredyohannes/Downloads/javafx-sdk-20/lib/javafx.web.jar"
     ]
 }
