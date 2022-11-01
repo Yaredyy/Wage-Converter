@@ -67,8 +67,6 @@ public class Converter extends Application
     
     Button hrBut;
     Button yrBut;
-    int value;
-    int hrPrWk;
     
     HBox lbBox;
     HBox txtBox;
@@ -115,15 +113,24 @@ public class Converter extends Application
     //creates buttons and int holder for getting value of txtFields
     hrBut = new Button("Convert to Yearly!");
     yrBut = new Button("Convert to Hourly!");
-    value = 0;
-    hrPrWk = 40;
     
     //sets up actions
     hrBut.setOnAction(
       new EventHandler<ActionEvent>() {
         @Override public void handle(ActionEvent e) {
-          
-          yrTxt.setText(hrTxt.getText());
+          int hrPrWk = Integer.parseInt(perTxt.getText());
+          int value = Integer.parseInt(hrTxt.getText());
+          yrTxt.setText(Integer.toString(value * hrPrWk * 52));
+        } 
+      }
+    );
+
+    yrBut.setOnAction(
+      new EventHandler<ActionEvent>() {
+        @Override public void handle(ActionEvent e) {
+          int hrPrWk = Integer.parseInt(perTxt.getText());
+          int value = Integer.parseInt(yrTxt.getText());
+          hrTxt.setText(Integer.toString(value / hrPrWk / 52));
         } 
       }
     );
